@@ -516,7 +516,7 @@
 		}
 
 		.row.\31 50\25 {
-			margin: 0 0 -1px -3em;
+			margin: 0 0 -1px -8em;
 		}
 
 		.row.uniform.\31 50\25 > * {
@@ -2558,7 +2558,7 @@
 		ul.actions {
 			cursor: default;
 			list-style: none;
-			padding-left: 110px;
+			padding-left: 10px;
 			padding-right: 0px;
 		}
 
@@ -2630,7 +2630,7 @@
 				}
 
 					ul.actions li {
-						padding: 1em 0 0 0;
+						padding: 0 100px 0 0;
 						display: block;
 						text-align: center;
 						width: 100%;
@@ -2690,7 +2690,7 @@
 		font-size: 1.25em;
 		margin-top: -1em;
 		line-height: 1.5em;
-		padding-left: 100px;
+		padding-left: 10px;
 	}
 
 	header h3 + p {
@@ -2713,7 +2713,7 @@
 
 		header.major h2 {
 			font-size: 3em;
-			padding-left: 100px;
+			padding-left: 0;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -3337,7 +3337,24 @@
 }
 
 .footerRow {
-	display: flex;
+	display: inline-block;
 	flex-direction: row;
 	justify-content: space-around;
+	padding-left: 300px;
+}
+@media screen and (max-width: 480px) {
+	#sidebar + #wrapper + #footer {
+		margin-left: 0;
+	}
+	#footer > .mm {
+		padding-left:250px;
+		border-bottom-color: rgba(0, 0, 0, 0.15);
+		color: #222;
+	.footerRow {
+	display: inline-block;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-left: 30px;
+	}
+
 }
