@@ -3304,7 +3304,7 @@
 
 /* Footer */
 
-#sidebar + #wrapper + #footer {
+#sidebar + #wrapper {
 	margin-left: 18em;
 }
 
@@ -3325,7 +3325,6 @@
 	}
 
 #footer > .mm {
-	padding-left:250px;
 	border-bottom-color: rgba(0, 0, 0, 0.15);
 	color: #222;
 	
@@ -3340,7 +3339,6 @@
 	display: inline-block;
 	flex-direction: row;
 	justify-content: space-around;
-	padding-left: 300px;
 }
 @media screen and (max-width: 480px) {
 	#sidebar + #wrapper + #footer {
@@ -3350,6 +3348,7 @@
 		padding-left:250px;
 		border-bottom-color: rgba(0, 0, 0, 0.15);
 		color: #222;
+	}
 	.footerRow {
 	display: inline-block;
 	flex-direction: row;
@@ -3358,3 +3357,13 @@
 	}
 
 }
+
+.donateForm {
+	width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+	.donateForm {
+		width: 90%;
+	}
+  }
