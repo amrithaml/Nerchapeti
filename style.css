@@ -24,9 +24,9 @@ body {
   margin: 0 auto;
   font-family: var(--font-sans);
 }
-@media (min-width: 600px) {
+@media (min-width: 500px) {
   .page-content {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 @media (min-width: 800px) {
@@ -218,17 +218,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  color: #1A73E8;
+  color: #1a73e8;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   line-height: 1.4;
 }
 /*slider start*/
 
-
-
-
-.slider{
+.slider {
   width: 100%;
   height: 500px;
   border-radius: 10px;
@@ -236,29 +233,29 @@ body {
   margin-top: 50px;
 }
 
-.slides{
+.slides {
   width: 500%;
   height: 500px;
   display: flex;
 }
 
-.slides input{
+.slides input {
   display: none;
 }
 
-.slide{
+.slide {
   width: 20%;
   transition: 2s;
 }
 
-.slide img{
+.slide img {
   width: 100%;
   height: 500px;
 }
 
 /*css for manual slide navigation*/
 
-.navigation-manual{
+.navigation-manual {
   position: absolute;
   width: 800px;
   padding-left: 600px;
@@ -267,42 +264,42 @@ body {
   justify-content: center;
 }
 
-.manual-btn{
+.manual-btn {
   border: 2px solid #e4eaeb;
   padding: 5px;
-  
+
   border-radius: 10px;
   cursor: pointer;
   transition: 1s;
 }
 
-.manual-btn:not(:last-child){
+.manual-btn:not(:last-child) {
   margin-right: 40px;
 }
 
-.manual-btn:hover{
+.manual-btn:hover {
   background: #e4eaeb;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked ~ .first {
   margin-left: 0;
 }
 
-#radio2:checked ~ .first{
+#radio2:checked ~ .first {
   margin-left: -20%;
 }
 
-#radio3:checked ~ .first{
+#radio3:checked ~ .first {
   margin-left: -40%;
 }
 
-#radio4:checked ~ .first{
+#radio4:checked ~ .first {
   margin-left: -60%;
 }
 
 /*css for automatic navigation*/
 
-.navigation-auto{
+.navigation-auto {
   position: absolute;
   display: flex;
   width: 800px;
@@ -311,40 +308,32 @@ body {
   margin-top: 460px;
 }
 
-.navigation-auto div{
+.navigation-auto div {
   border: 2px solid #e4eaeb;
   padding: 5px;
   border-radius: 10px;
   transition: 1s;
 }
 
-.navigation-auto div:not(:last-child){
+.navigation-auto div:not(:last-child) {
   margin-right: 40px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1{
+#radio1:checked ~ .navigation-auto .auto-btn1 {
   background: #e4eaeb;
 }
 
-#radio2:checked ~ .navigation-auto .auto-btn2{
+#radio2:checked ~ .navigation-auto .auto-btn2 {
   background: #e4eaeb;
 }
 
-#radio3:checked ~ .navigation-auto .auto-btn3{
+#radio3:checked ~ .navigation-auto .auto-btn3 {
   background: #e4eaeb;
 }
 
-#radio4:checked ~ .navigation-auto .auto-btn4{
+#radio4:checked ~ .navigation-auto .auto-btn4 {
   background: #e4eaeb;
 }
-      
-
-
-
-
-
-
-
 
 /*slider end*/
 
@@ -499,7 +488,6 @@ footer {
   text-align: center;
   color: var(--light) !important;
   margin: 0px;
-  
 }
 
 /* MEDIA QUERIES */
@@ -611,7 +599,6 @@ footer {
   }
 }
 
-
 /*Amritha*/
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
 * {
@@ -648,20 +635,19 @@ a {
   max-height: 100%;
 }
 
-
 .container {
   background-color: rgb(192, 192, 192);
   width: 100%;
-      border-radius: 15px;
+  border-radius: 15px;
 }
 
 .skill {
-  background-color: #1A73E8;
+  background-color: #1a73e8;
   color: white;
   padding: 1%;
   text-align: right;
   font-size: 12px;
-      border-radius: 15px;
+  border-radius: 15px;
 }
 
 .html {
@@ -768,7 +754,6 @@ a {
   padding: 5px;
 }
 
-  
 /*Amritha css end*/
 /* SHAMEER  */
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
@@ -786,19 +771,19 @@ a {
   text-decoration: none;
 }
 .product-card {
-  width: 290px;
+  width: 330px;
   position: relative;
-  box-shadow: 0 2px 7px #dfdfdf;
-
+  box-shadow: 0 2px 7px #929191;
   background: #fafafa;
 }
 
 .product-tumb {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
 
-  background: #f0f0f0;
+  background: #cccaca;
 }
 
 .product-tumb img {
@@ -856,21 +841,6 @@ a {
 
 .product-bottom-details div {
   float: left;
-  width: 50%;
-}
-
-.product-price {
-  font-size: 18px;
-  color: #4285f4;
-  font-weight: 600;
-}
-
-.product-price small {
-  font-size: 80%;
-  font-weight: 400;
-  text-decoration: line-through;
-  display: inline-block;
-  margin-right: 5px;
 }
 
 .product-links {
@@ -878,7 +848,7 @@ a {
 }
 
 .product-links a {
-  display: inline-block;
+  display: inline-flexbox;
   margin-left: 5px;
   color: #e1e1e1;
   transition: 0.3s;
@@ -905,3 +875,4 @@ a {
   color: #fff;
   padding: 5px;
 }
+
