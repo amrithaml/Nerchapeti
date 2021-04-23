@@ -658,7 +658,7 @@ a {
   padding: 30px;
 }
 
-.product-catagory1 {
+.product-catagory1 .churchName{
   display: block;
   font-size: 20px;
   font-weight: 700;
@@ -728,13 +728,13 @@ a {
 .product-links a {
   display: inline-block;
   margin-left: 5px;
-  color: #e1e1e1;
+  color: #bbbbbb!important;
   transition: 0.3s;
   font-size: 17px;
 }
 
 .product-links a:hover {
-  color: #4285f4;
+  color: #4285f4 !important;
 }
 
 .progress-bar {
@@ -874,5 +874,34 @@ a {
   background: #4285f4;
   color: #fff;
   padding: 5px;
+}
+
+.churchName {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(35, 39, 38);
+  margin-bottom: 18px;
+}
+
+strong {
+  color: black;
+}
+
+.churchDescription {
+   font-size: 1rem !important;
+ }
+
+ .product-links div {
+  display: inline-flexbox;
+  margin-left: 5px;
+  color: #bbbbbb!important;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.product-links div:hover {
+  color: #4285f4 !important;  
 }
 
