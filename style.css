@@ -889,10 +889,6 @@ strong {
   color: black;
 }
 
-.churchDescription {
-   font-size: 1rem !important;
- }
-
  .product-links div {
   display: inline-flexbox;
   margin-left: 5px;
@@ -905,3 +901,36 @@ strong {
   color: #4285f4 !important;  
 }
 
+.fa-church {
+  display: inline-flexbox;
+  margin: 25px 40px 5px 40px;
+  color: #bbbbbb!important;
+  transition: 0.3s;
+  font-size: 200px;  
+}
+
+.church-pic {
+  width: 250px;
+  height: 250px;
+}
+
+.churchShare {
+  color: #bbbbbb!important;
+  transition: 0.3s;
+  font-size: 20px;  
+  text-align: center;
+  margin: 10px 0 30px 0;
+}
+
+.churchShare:hover {
+  color: #4285f4 !important;    
+}
+
+.churchCategory {
+  color: #999;
+  margin: 5px 0 5px 0;
+}
+
+.church-details {
+  height: 250px;
+}
