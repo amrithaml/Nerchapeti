@@ -704,7 +704,7 @@ a {
 
 .product-bottom-details div {
   float: left;
-  width: 50%;
+  width: 75%;
 }
 
 .product-price {
@@ -797,7 +797,7 @@ a {
 
 .product-catagory {
   display: block;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   color: rgb(35, 39, 38);
