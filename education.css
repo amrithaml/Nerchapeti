@@ -1,0 +1,60 @@
+.main {
+    text-align: center;
+    margin: 125px;
+}
+
+img {
+    border-radius: 3%;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+
+.share {
+    color: #bbbbbb!important;
+    margin-top: 50px;
+    font-size: 2rem;
+}
+
+.share:hover {
+    color: #4285f4 !important;   
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.linkSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    color: black;
+    text-decoration: underline;
+}
+
+p {
+    color: black;
+    margin: 25px;
+}
+
+h4, h2 {
+    color: black;
+}
+
+.commentSection {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.comment {
+    display: flex;
+    margin: 50px;
+}
+
+.fa-user {
+    font-size: 50px;
+}
